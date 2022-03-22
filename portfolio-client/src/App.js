@@ -1,9 +1,14 @@
+import React from "react";
+import Login from "./pages/login/Login";
+import './App.css';
+import Register from "./pages/register/Register";
+
 
 function App() {
   return (
-    <div className="App">
-      <h1>Welcome</h1>
-    </div>
+    <>
+      <Register />
+    </>
   );
 }
 

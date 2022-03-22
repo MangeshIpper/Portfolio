@@ -1,0 +1,15 @@
+.outerContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.formContainer {
+  margin: auto;
+  padding: 15px;
+  width: 30%;
+  border: 1px solid #ced4da;
+}
+.buttonDiv {
+  display: flex;
+  justify-content: space-between;
+}
