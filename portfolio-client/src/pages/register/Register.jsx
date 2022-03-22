@@ -2,6 +2,7 @@ import "./register.css";
 import { Form, Button } from "react-bootstrap";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
+import { Link } from "react-router-dom";
 
 function Register() {
   return (
@@ -21,7 +22,7 @@ function Register() {
           <Form.Group className="has-wrapper mb-40">
             <Form.Label>Phone Number</Form.Label>
             <PhoneInput
-            className="phoneNo"
+              className="phoneNo"
               value=""
               country="ie"
               regions={"europe"}
@@ -47,9 +48,16 @@ function Register() {
           </Form.Group>
 
           <div className="buttonDiv">
-            <Button variant="primary" type="submit">
-              Register
-            </Button>
+            <div>
+              <Link to="/login">
+                <a href="">Sign in</a>
+              </Link>
+            </div>
+            <div>
+              <Button variant="primary" type="submit">
+                Sign up
+              </Button>
+            </div>
           </div>
         </Form>
       </div>

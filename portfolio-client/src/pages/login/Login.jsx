@@ -1,7 +1,10 @@
 import './login.css';
 import {Form, Button} from "react-bootstrap";
+// import loginSchema from "../../models/login";
+import { Link } from "react-router-dom";
 
 function Login() {
+
   return (
     <div className="outerContainer">
       <div className="formContainer">
@@ -18,9 +21,9 @@ function Login() {
             <Form.Label>Password</Form.Label>
             <Form.Control type="password" placeholder="Password" />
           </Form.Group>
-          <div className="buttonDiv">
+          <div className="loginButtonDiv">
             <div>
-              <a href="#">Create account</a>
+              <Link to="/register"><a href="">Create account</a></Link>
             </div>
             <div>
               <Button variant="primary" type="submit">

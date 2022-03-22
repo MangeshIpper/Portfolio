@@ -11,7 +11,7 @@
   }
   .buttonDiv {
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
   }
   .phoneNo input{
       width: 100% !important;

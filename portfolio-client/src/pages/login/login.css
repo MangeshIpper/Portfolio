@@ -9,7 +9,7 @@
   width: 30%;
   border: 1px solid #ced4da;
 }
-.buttonDiv {
+.loginButtonDiv {
   display: flex;
   justify-content: space-between;
 }
